@@ -6,7 +6,7 @@ function Hero() {
   const router = useRouter();
 
   const handleGetStarted = () => {
-    router.push(`/sign-in?redirect_url=${encodeURIComponent('http://localhost:3000/dashboard')}`);
+    router.push(`/sign-in?redirect_url=${encodeURIComponent('/dashboard')}`);
   };
 
   return (
