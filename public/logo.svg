@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <!-- Background Neural Network Pattern -->
+  <g fill="none" stroke="#E0E0E0" stroke-width="1">
+    <path d="M50,100 L150,50 L250,150 L350,100" />
+    <path d="M50,150 L150,100 L250,50 L350,150" />
+  </g>
+  
+  <!-- Brain Icon -->
+  <path d="M180,60 C220,60 240,90 240,110 C240,130 220,160 180,160 C140,160 120,130 120,110 C120,90 140,60 180,60" 
+        fill="#6366F1" opacity="0.9"/>
+  
+  <!-- Circuit Lines -->
+  <path d="M160,70 L140,70 L140,90" stroke="#4F46E5" stroke-width="3" fill="none"/>
+  <path d="M200,70 L220,70 L220,90" stroke="#4F46E5" stroke-width="3" fill="none"/>
+  
+  <!-- Pulse Animation -->
+  <path d="M140,110 L160,110 L170,90 L180,130 L190,90 L200,110 L220,110" 
+        stroke="#4F46E5" stroke-width="3" fill="none"/>
+  
+  <!-- Text -->
+  <text x="200" y="185" font-family="Arial, sans-serif" font-size="24" font-weight="bold" 
+        text-anchor="middle" fill="#1F2937">MindForge</text>
+  
+  <!-- Gear Icon -->
+  <g transform="translate(240,100) scale(0.4)">
+    <path d="M20,50 A30,30 0 1,0 80,50 A30,30 0 1,0 20,50" fill="#4F46E5"/>
+    <circle cx="50" cy="50" r="10" fill="#fff"/>
+  </g>
+</svg>
