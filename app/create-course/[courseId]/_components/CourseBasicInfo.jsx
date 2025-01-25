@@ -56,7 +56,7 @@ export default function CourseBasicInfo({ course, refreshData, edit = true }) {
     const isValidBanner = bannerUrl && bannerUrl !== "/placeholder.png";
 
     return (
-        <div className="p-10 border rounded-xl shadow-sm mt-5">
+        <div className="p-10 border rounded-xl shadow-sm mt-10">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                 <div>
                     <h2 className="font-bold text-3xl">
